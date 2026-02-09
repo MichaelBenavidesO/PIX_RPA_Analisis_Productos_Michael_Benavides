@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS Productos (
+    id INTEGER PRIMARY KEY,
+    title TEXT NOT NULL,
+    price REAL NOT NULL,
+    category TEXT NOT NULL,
+    description TEXT,
+    fecha_insercion TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
