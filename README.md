@@ -1,6 +1,6 @@
 # Proyecto PIX RPA – Análisis de Productos
 
-## 📌 Descripción del proyecto
+## Descripción del proyecto
 
 Este proyecto implementa una automatización desarrollada en **PIX Robotics** cuyo objetivo es consumir información de productos desde una API externa, procesar y almacenar dichos datos en una base de datos relacional, generar un reporte en formato Excel y realizar la carga del archivo generado en **OneDrive** mediante **Microsoft Graph API**.
 
@@ -15,7 +15,7 @@ El flujo automatizado contempla:
 
 ---
 
-## 🗄️ Creación de la base de datos y tabla
+## Creación de la base de datos y tabla
 
 ### Base de datos
 
@@ -40,7 +40,7 @@ La tabla está diseñada para almacenar los productos obtenidos desde la API, ut
 
 ---
 
-## ▶️ Pasos para la ejecución
+## Pasos para la ejecución
 
 1. Clonar o abrir el proyecto en **PIX Robotics**.
 2. Configurar las variables de entorno:
@@ -62,7 +62,7 @@ La tabla está diseñada para almacenar los productos obtenidos desde la API, ut
 
 ---
 
-## 📦 Requisitos y dependencias
+## Requisitos y dependencias
 
 * **PIX Robotics**
 * **Base de datos MySQL** (o compatible vía ODBC)
@@ -76,7 +76,7 @@ La tabla está diseñada para almacenar los productos obtenidos desde la API, ut
 
 ---
 
-## ☁️ Integración con OneDrive
+## Integración con OneDrive
 
 La carga del archivo se realiza utilizando **Microsoft Graph API** mediante autenticación OAuth 2.0 (client credentials). El proceso incluye:
 
@@ -88,7 +88,7 @@ La carga del archivo se realiza utilizando **Microsoft Graph API** mediante aute
 
 ---
 
-## 📝 Enlace del formulario utilizado
+## Enlace del formulario utilizado
 
 Formulario usado para la prueba técnica:
 
@@ -96,12 +96,12 @@ Formulario usado para la prueba técnica:
 
 ---
 
-## 👤 Autor
+## Autor
 
 Proyecto desarrollado por **Michael Sneider Benavides Obando** como parte de una prueba técnica laboral, aplicando buenas prácticas de automatización, integración de servicios y manejo de datos.
 
 ---
 
-## ✅ Observaciones finales
+## Observaciones finales
 
 La solución fue desarrollada siguiendo buenas prácticas de automatización, modularización de scripts y manejo seguro de credenciales. El proyecto queda listo para ejecutarse en cualquier entorno corporativo que cumpla con los requisitos indicados, sin necesidad de modificaciones adicionales.
